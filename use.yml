@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+          - template:
+                  src: temp.j2
+                  dest: /root/ansible/myhosts
